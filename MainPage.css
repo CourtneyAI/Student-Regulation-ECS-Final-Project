@@ -1,0 +1,51 @@
+:root {
+    --primary-blue: #1f61a3;
+    --dark-blue: #0b3d93;
+    --primary-yellow: #ffcc00;
+    --light-yellow: #fbdd7c;
+}
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--primary-blue);
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #0b3d93;
+}
+
+h1 {
+  text-align: center;
+}
+
+div {
+  border: 1px #fbdd7c solid;
+  padding: 8px;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffcc00;
+}
+footer {
+  text-align: center;
+  padding: 5px;
+  background-color: var(--primary-blue);
+  text-size-adjust: 100%;
+  color: white;
+}
